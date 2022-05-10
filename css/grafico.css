@@ -1,0 +1,161 @@
+main {
+    min-width: 320px;
+    max-width: 800px;
+    height: 100%;
+    background-color: var(--color2);
+    padding: 2px 15px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+main h2 {
+    font-size: 2.2rem;
+    margin: 2px 0;
+    text-align: center;
+    font-weight: 900;
+}
+
+main h3 {
+    font-size: 1.7rem;
+    margin: 4px 0 10px 0;
+    text-align: center;
+}
+
+main input {
+    border: 0;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.102);
+    text-indent: 3px;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+main label {
+    background-color: var(--color5);
+    height: 23px;
+}
+
+#content-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-input {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.content-input label {
+    margin: 0 0 0 25px;
+    font-size: 1.7rem;
+    width: 100px;
+    text-indent: 4px;
+    line-height: 24px;
+   
+}
+
+.content-input input {
+    margin: 0;
+    color: black;
+    width: 90px;
+    height: 23px;
+    font-size: 1.7rem;
+    text-indent: 5px;
+ 
+}
+
+.content-input input:focus {
+    border: 0;
+    outline: 0;
+    border: 1px solid rgba(54, 54, 226, 0.711);
+}
+
+#content-inputVariaveis {
+    margin-top: 15px;
+    font-size: 1.7rem;
+    width: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-inputVariaveis label {
+    text-indent: 4px;
+    line-height: 24px;
+    width: 220px;
+}
+
+#content-inputVariaveis input {
+    color: black;
+    width: 190px;
+    height: 23px;
+    font-size: 1.7rem;
+    text-indent: 5px;
+}
+
+
+#content-inputVariaveis input:focus {
+    border: 1px solid rgba(54, 54, 226, 0.711);
+    outline: 0;
+   
+}
+
+#error p {
+    margin: 5px;
+    font-size: 1.5rem;
+    color: rgb(221, 75, 75);
+}
+
+main button {
+    margin: 6px 6px;
+    width: 100%;
+    height: 30px;
+    font-size: 1.6rem;
+    background-color: var(--color1);
+    border: 1px solid rgba(0, 0, 0, 0.152);
+    border-radius: 2px;
+    transition: .2s;
+    cursor: pointer ;
+    line-height: 1px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.297);
+    font-weight: 900;
+}
+
+main button:hover{
+    font-size: 1.5rem;
+    background-color: var(--color1-light);
+}
+
+
+
+#content-grafic {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(248, 244, 244);
+}
+
+
+
+#content-grafic p {
+    color: black ;
+    font-size: 1rem;
+}
+
+#Pontos {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#Pontos > p {
+    margin: 0 10px;
+}
